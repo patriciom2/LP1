@@ -19,5 +19,5 @@ int main()
     t=c*e;
   else if (moneda=='l')
     t=c*l;
-  cout<<setprecision(4)<<t<< endl;
+  cout<<t<< endl;
 }
