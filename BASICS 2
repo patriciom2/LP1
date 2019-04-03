@@ -1,5 +1,5 @@
 #include <iostream>
-#include<iomanip>
+#include <iomanip>
 
 using namespace std;
 int main() 
@@ -29,5 +29,6 @@ int main()
     cin>>c;
     t=c*0.54;
     cout<<t<< endl;
+    default:cout<<"Lo siento a ingresado un comando no valido \n";
   }
 }
