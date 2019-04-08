@@ -20,9 +20,9 @@ int main()
     cin>>c;
     if (moneda=='y')
       t=c*y;
-      (moneda=='e')
+    if (moneda=='e')
       t=c*e;
-    else if (moneda=='l')
+    if (moneda=='l')
       t=c*l;
     cout<<t;
     break;
@@ -34,4 +34,3 @@ int main()
     default:cout<<"Error, ingreso un comando incorrecto";
     break;
   }
-}
