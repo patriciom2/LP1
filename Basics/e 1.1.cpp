@@ -15,22 +15,29 @@ int main()
   switch (opcion)
   { 
     case 1:cout<<"Ingrese si es Yenes (y), Euros (e) o Libras (l): \n";
-       cin>>moneda;
-    cout<< "Ingrese la cantidad: \n";
-    cin>>c;
-    if (moneda=='y')
-      t=c*y;
-    if (moneda=='e')
-      t=c*e;
-    if (moneda=='l')
-      t=c*l;
-    cout<<t;
+        cin>>moneda;
+        cout<< "Ingrese la cantidad: \n";
+        cin>>c;
+        if (moneda=='y')
+            t=c*y;
+            cout<<tendl;
+            break;
+        if (moneda=='e')
+            t=c*e;
+            cout<<tendl;
+            break;
+        if (moneda=='l')
+            t=c*l;
+            break;
+            cout<<tendl;
+            break;
     break;
     case 2:cout<<"Ingrese los Yuanes a calcular en Shekeles: \n" ;
-    cin>>c;
-    t=c*0.54;
-    cout<<t;
+        cin>>c;
+        t=c*0.54;
+        cout<<t;
     break;
     default:cout<<"Error, ingreso un comando incorrecto";
     break;
   }
+}
