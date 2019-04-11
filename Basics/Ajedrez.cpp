@@ -14,7 +14,7 @@ int main (){
 	int f=0;
 	int c=0;
 	int m=0;
-	cout<<"ingrese fila, columna y los movimientos por hacer";
+	cout<<"ingrese fila, columna y los movimientos por hacer \n";
 	cin>>f>>c>>m;
 	
 	int b1=(f+m);
