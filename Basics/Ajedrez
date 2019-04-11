@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-int square (int x){
+int chess(int x){
 	if (x>8){
 		x=8;
 	}
@@ -18,13 +18,13 @@ int main (){
 	cin>>f>>c>>m;
 	
 	int b1=(f+m);
-	b1=square(b1);
+	b1=chess(b1);
 	int b2=(f-m);
-	b2=square(b2);
+	b2=chess(b2);
 	int a1=(c+m);
-	a1=square(a1);
+	a1=chess(a1);
 	int a2=(c-m);
-	a2=square(a2);
+	a2=chess(a2);
 	
 	int base=(b1-b2+1);
 	int altura=(a1-a2+1);
