@@ -24,6 +24,6 @@ int main(){
 				palabras[i]="piiii";
 			}
 		}
-	    cout<<palabras[i]<<" ";	
+	        cout<<palabras[i]<<" ";	
 	}
 }
