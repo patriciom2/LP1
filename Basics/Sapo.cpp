@@ -20,7 +20,7 @@ int main(){
 		z++;
 		cin>>saltos[y];
 	}
-	cout <<" Ingrese la cantidad de metros que desea saber sobre los saltos"<<endl;
+	cout <<" Ingrese la cantidad de metros"<<endl;
 	cin>>mt;
 	for (s=0; s<x; s++)
   {
@@ -32,7 +32,7 @@ int main(){
 	cout << "La cantidad de saltos son: "<< cont<<endl;
 	}
 	else{
-		cout << "Tienen que ser mayor que un salto; NO SEA GIL"<<endl;
+		cout << "Ingreso equivocado"<<endl;
 	}
 
 }
