@@ -17,7 +17,7 @@ int main()
 				cin>>p;
 				if (x >= 1){ //si es menor a uno se almacena en la variable z, si es mayor a uno pasa a el if 
 					if (p != z){ //si la palabra nueva es diferente a la original ingresada pasa al siguiente if
-						if (cambio == 0){ //si el cambio es 0 el se la añade 2 que es el anterior y ese 
+						if (cambio == 0){ //si el cambio es 0 el se la aÃ±ade 2 que es el anterior y ese 
 							contador = contador + 2;
 							cambio = 1; //se le suma 1 al cambio
 						} else {
