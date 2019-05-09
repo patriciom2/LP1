@@ -25,6 +25,6 @@ int main()
 		if (n==nums[i]){
 			cout<<i<<endl;
 		}
-    }
+        }
 }
 
