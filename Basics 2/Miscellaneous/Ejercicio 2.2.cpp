@@ -7,7 +7,7 @@ using namespace std;
 int main(){
 	int monto;
 	int cien=0,cincuenta=0,veinte=0,diez=0,cinco=0,uno=0;
-	cout<<"Ingrese el monto"<<endl;
+	cout<<"Ingrese el monto: ";
 	cin>>monto;
 	
 	while(monto>=100){
@@ -35,6 +35,10 @@ int main(){
 		uno++;
 	}
 	
-	cout<<cien<<" billetes de 100, "<<endl<<cincuenta<<" billetes de 50, "<<endl<<veinte<<" billetes de 20, "<<endl
-	<<diez<<" billetes de 10, "<<endl<<cinco<<" monedas de 5, "<<endl<<uno<<" monedas de 1, "<<endl;
+	cout<<cien<<" billetes de 100, "<<endl;
+	cout<<cincuenta<<" billetes de 50, "<<endl;
+	cout<<veinte<<" billetes de 20, "<<endl;
+	cout<<diez<<" billetes de 10, "<<endl;
+	cout<<cinco<<" monedas de 5, "<<endl;
+	cout<<uno<<" monedas de 1, "<<endl;
 }
