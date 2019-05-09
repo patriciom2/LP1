@@ -6,35 +6,35 @@ using namespace std;
 
 int main(){
 	int monto;
-	int c=0,l=0,xx=0,x=0,v=0,i=0;
+	int cien=0,cincuenta=0,veinte=0,diez=0,cinco=0,uno=0;
 	cout<<"Ingrese el monto"<<endl;
 	cin>>monto;
 	
 	while(monto>=100){
 		monto=monto-100;
-		c++;
+		cien++;
 	}
 	while(monto>=50){
 		monto=monto-50;
-		l++;
+		cincuenta++;
 	}
 	while(monto>=20){
 		monto=monto-20;
-		xx++;
+		veinte++;
 	}
 	while(monto>=10){
 		monto=monto-10;
-		x++;
+		diez++;
 	}
 	while(monto>=5){
 		monto=monto-5;
-		v++;
+		cinco++;
 	}
 	while(monto>=1){
 		monto=monto-1;
-		i++;
+		uno++;
 	}
 	
-	cout<<c<<" billetes de 100, "<<endl<<l<<" billetes de 50, "<<endl<<xx<<" billetes de 20, "<<endl
-	<<x<<" billetes de 10, "<<endl<<v<<" monedas de 5, "<<endl<<i<<" monedas de 1, "<<endl;
+	cout<<cien<<" billetes de 100, "<<endl<<cincuenta<<" billetes de 50, "<<endl<<veinte<<" billetes de 20, "<<endl
+	<<diez<<" billetes de 10, "<<endl<<cinco<<" monedas de 5, "<<endl<<uno<<" monedas de 1, "<<endl;
 }
