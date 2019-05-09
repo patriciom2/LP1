@@ -12,10 +12,8 @@ int main(){
 	cin>>monto;
 	
 	while(monto>=100){
-		try{
-			monto=monto-100;
-		    c++;
-		}
+		monto=monto-100;
+		c++;
 	}
 	while(monto>=50){
 		monto=monto-50;
